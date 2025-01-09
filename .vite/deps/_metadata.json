@@ -1,0 +1,67 @@
+{
+  "hash": "37abb919",
+  "configHash": "8f23d9b5",
+  "lockfileHash": "c92cb537",
+  "browserHash": "b5450b0f",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "f4715678",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "35417b4c",
+      "needsInterop": true
+    },
+    "react-toastify": {
+      "src": "../../node_modules/react-toastify/dist/react-toastify.esm.mjs",
+      "file": "react-toastify.js",
+      "fileHash": "64353bfe",
+      "needsInterop": false
+    },
+    "nanoid": {
+      "src": "../../node_modules/nanoid/index.browser.js",
+      "file": "nanoid.js",
+      "fileHash": "e9d9c4ec",
+      "needsInterop": false
+    },
+    "react-icons/ai": {
+      "src": "../../node_modules/react-icons/ai/index.mjs",
+      "file": "react-icons_ai.js",
+      "fileHash": "fdfbe4de",
+      "needsInterop": false
+    },
+    "react-icons": {
+      "src": "../../node_modules/react-icons/index.mjs",
+      "file": "react-icons.js",
+      "fileHash": "e42596ac",
+      "needsInterop": false
+    },
+    "formik": {
+      "src": "../../node_modules/formik/dist/formik.esm.js",
+      "file": "formik.js",
+      "fileHash": "9ca589b9",
+      "needsInterop": false
+    },
+    "yup": {
+      "src": "../../node_modules/yup/index.esm.js",
+      "file": "yup.js",
+      "fileHash": "f7e335ba",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-PTN3OELY": {
+      "file": "chunk-PTN3OELY.js"
+    },
+    "chunk-WNPTCGAH": {
+      "file": "chunk-WNPTCGAH.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}

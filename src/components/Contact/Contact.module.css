@@ -1,0 +1,44 @@
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-name {
+  display: flex;
+  overflow-wrap: anywhere;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.contact-number {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  font-weight: 800;
+}
+
+.button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 20px;
+}
+
+.button:hover {
+  background-color: #c82333;
+}
