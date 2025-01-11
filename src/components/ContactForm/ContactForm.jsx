@@ -4,7 +4,7 @@ import style from './ContactForm.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectContacts } from '../../redux/contactsSlice';
 import { toast } from 'react-toastify';
-import { createContacts } from '../../redux/contactsOptions';
+import { createContacts } from '../../redux/contactsOps';
 
 const ContactForm = () => {
   const dispatch = useDispatch();

@@ -6,7 +6,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchContacts } from './redux/contactsOptions';
+import { fetchContacts } from './redux/contactsOps';
 import { selectError, selectIsLoading } from './redux/contactsSlice';
 
 function App() {

@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { AiOutlinePhone, AiOutlineUser } from 'react-icons/ai';
 import style from './Contact.module.css';
-import { deleteContact } from '../../redux/contactsOptions';
+import { deleteContact } from '../../redux/contactsOps';
 
 const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
