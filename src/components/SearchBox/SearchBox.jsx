@@ -8,14 +8,15 @@ const SearchBox = () => {
   const dispatch = useDispatch();
   const filter = useSelector(selectFilter);
 
-  const handleChange = e => {
-    dispatch(changeFilter(e.target.value));
+  const handleChange = event => {
+    dispatch(changeFilter(event.target.value));
   };
 
   return (
     <div className={style.inputWrap}>
       <input
         type="text"
+        placeholder="Search contacts..."
         className={style.sbox}
         value={filter}
         onChange={handleChange}
